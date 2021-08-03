@@ -6,4 +6,194 @@
     android:layout_height="match_parent"
     tools:context=".Like">
 
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="447dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button">
+
+        <View
+            android:id="@+id/divider11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp">
+
+            <CheckBox
+                android:id="@+id/sccheck1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/scimg1"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintStart_toEndOf="@+id/sccheck1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/eee" />
+
+            <TextView
+                android:id="@+id/scname1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="30dp"
+                android:text="UPCYCLING AIRPODS CASE"
+                app:layout_constraintStart_toEndOf="@+id/scimg1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/scprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="13dp"
+                android:text="US $70"
+                app:layout_constraintStart_toEndOf="@+id/scimg1"
+                app:layout_constraintTop_toBottomOf="@+id/scname1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <CheckBox
+                android:id="@+id/sccheck2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/scimg2"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintStart_toEndOf="@+id/sccheck2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/fff" />
+
+            <TextView
+                android:id="@+id/scname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="30dp"
+                android:text="Beanie Mini Tote Bag"
+                app:layout_constraintStart_toEndOf="@+id/scimg2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/scprice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="13dp"
+                android:text="US $189"
+                app:layout_constraintStart_toEndOf="@+id/scimg2"
+                app:layout_constraintTop_toBottomOf="@+id/scname2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/sccheck3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="29dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/scimg3"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintStart_toEndOf="@+id/sccheck3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ddd" />
+
+            <TextView
+                android:id="@+id/scname3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="29dp"
+                android:text="Mini String Bag"
+                app:layout_constraintStart_toEndOf="@+id/scimg3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/scprice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="13dp"
+                android:text="US $30"
+                app:layout_constraintStart_toEndOf="@+id/scimg3"
+                app:layout_constraintTop_toBottomOf="@+id/scname3" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="407dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/scimg3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/advertisement5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="@color/colorAd"
+        android:text="Advertisement"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <include layout="@layout/toolbar_like"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select All"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="83dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

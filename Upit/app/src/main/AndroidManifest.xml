@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Shopping_cart"></activity>
+        <activity android:name=".MembershipJoin"></activity>
+        <activity android:name=".Membershipnew" />
+        <activity android:name=".Shopping_cart" />
         <activity android:name=".Purchase_history" />
         <activity android:name=".Like" />
         <activity android:name=".My_Point" />
-        <activity android:name=".Membership" />
-        <!--activity android:name=".My_Page" /-->
+        <activity android:name=".Membership" /> <!-- activity android:name=".My_Page" / -->
         <activity android:name=".My_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
