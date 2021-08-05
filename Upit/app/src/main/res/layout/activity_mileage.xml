@@ -34,9 +34,11 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="16dp"
         android:text="10000 p"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
@@ -44,11 +46,13 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="268dp"
         android:text="Mileage history(in 3months)"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
 
     <View
         android:id="@+id/divider2"
@@ -80,21 +84,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2021.07.27" />
+                android:text="2021.07.27"
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="5 Plastic Bottle(s) " />
+                android:text="5 Plastic Bottle(s) "
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="+50p" />
+                android:text="+50p"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -104,24 +111,27 @@
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="wrap_content"
+                android:layout_width="44dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2021.07.27" />
+                android:text="2021.07.27"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView17"
-                android:layout_width="wrap_content"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="3 Can(s)" />
+                android:text="3 Can(s)"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView18"
-                android:layout_width="wrap_content"
+                android:layout_width="4dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="+30p" />
+                android:text="+30p"
+                android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>
 

@@ -186,14 +186,28 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-1dp" />
 
-    <include layout="@layout/toolbar_like"/>
+    <include
+        android:id="@+id/include8"
+        layout="@layout/toolbar_like" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="28dp"
         android:text="Select All"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include8" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="Move to Shopping cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
